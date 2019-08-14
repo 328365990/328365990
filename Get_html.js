@@ -11,7 +11,7 @@ var bufferhelper = require("bufferhelper");
 function get_html (ctx, next){
     return new Promise((resolve,reject)=>{
         superagent
-            .get("https://m.che168.com/dealer/carlist.html?dealerid=213579")
+            .get("https://m.che168.com/xxxxx/xxxxxx/xxxxxx")
             .end((error, response) => {                
                 var content = response.text;                
                 var $ = cheerio.load(content);                
